@@ -7,6 +7,15 @@
 
 // Add an attribute to your Animal class called mAdopted. This attribute should be a booleantype, and should indicate whether an animal has found a home yet, or is still in the shelter. Write a method that changes the mAdopted attribute of an animal from false to true.
 
+
+//Using the previous two lessons as a guide, add an option to your animal shelter application that allows users to either create a new Animal, see all Animals, or search for only un-adopted, and/or onlypets that live indoors (using the insidePet() method you created in the bjeicts and methods pet exercise.)
+
+// When gathering user input, make sure to compare strings using equals() instead of ==.
+
+// Implement a while loop to keep your program up and running until the user opts to exit.
+
+// Once your application allows users to select multiple options, consider whether you can refactor this code. Is there redundant code here? Could anything be refactored into a method?
+
 public class Animals {
     public String mSpeices;
 }
